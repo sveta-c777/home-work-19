@@ -104,10 +104,10 @@ console.log(age);
 let ageIn10Years = age + 10;
 console.log(ageIn10Years);
 // ==== 3 ====//
-firstName = firstName.replace("tARAS","Taras");
-console.log(firstName.replace("tARAS","Taras"));
-lastName = lastName.replace("s","S");
-console.log(lastName.replace("s","S"));
+firstName = firstName[0].toUpperCase() + firstName.slice(1).toLowerCase();
+console.log(firstName);
+lastName = lastName[0].toUpperCase() + lastName.slice(1).toLowerCase();
+console.log(lastName);
 
 
 // ==== 4 ====//
